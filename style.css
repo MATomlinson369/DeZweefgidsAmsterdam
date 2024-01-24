@@ -3,13 +3,22 @@
     box-sizing: border-box;
 }
 
-footer{
-    background-color: #88a375;
-    text-align: left;
-    padding: 1em;
-    color:#42746b;
+.titels{
+    color: #CA8650;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
     
 }
+
+p{
+    color: #42746b;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
 
 h1{
     background-color: #88a375;
@@ -20,6 +29,12 @@ h1{
     margin-left: auto;
     margin-right: auto;
 }
+
+h2{
+    text-align: center;
+    color: #42746b;
+}
+
 .logo_png{
     display: flex;
     box-sizing: border-box;
@@ -27,66 +42,39 @@ h1{
     width: 350px;
     margin: auto;
     
-
-
-}
-*{
-    max-width: 100vw;
-}
-.potret{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    height: 400px;
-    width: 300px;
-    
 }
 
-p{
-    
-    color: #42746b;
-    text-align: center;
+#section1{
     margin-left: auto;
     margin-right: auto;
-    width: 350px;
-}
-.titels{
-    color: #CA8650;
-    text-align: right;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-.gems{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 250px;
-    height: 350px;
-    padding-top: 1em;
     padding-bottom: 1em;
 }
-.edelstenen{
-    display: flex;
+
+#section2{
+    position: relative;
+    margin-top: -2.8em;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    background-color: #A6D6CE;
+    padding:10px;
+    border-radius: 80%;
     margin: auto;
-    width: 365px;
-    height: 550px;
-    padding-top: 1em;
-    padding-bottom: 1em;
+}
+.button2{
+    background-color: #42746b;
+    padding:10px;
+    border-radius: 80%;
+    margin: auto;
+    color: #6ba99d;
+
 }
 
 
-.omslag{
-    display: flex;
-    height: 250px;
-    width: 330px;
-    margin-left:auto;
-    margin-right: auto;
-}
- 
-
-
- ul{
+ul{
     justify-content: center;
     display: flex;
     gap: 3em;
@@ -105,47 +93,61 @@ nav{
     
 }
 
-.button{
-    background-color: #A6D6CE;
-    padding:10px;
-    border-radius: 80%;
-    margin: auto;
-}
-.button2{
-    background-color: #42746b;
-    padding:10px;
-    border-radius: 80%;
-    margin: auto;
-    color: #6ba99d;
-
-}
-
 a{
     text-decoration: none;
     color: #42746b;
     
 }
 
-#section1{
+*{
+    max-width: 100vw;
+}
+
+.gems{
+    display: flex;
     margin-left: auto;
     margin-right: auto;
+    width: 250px;
+    height: 350px;
+    padding-top: 1em;
     padding-bottom: 1em;
 }
-#section2{
-    position: relative;
-    margin-top: -2.8em;
-    z-index: 1;
-    margin-left: auto;
+.edelstenen{
+    display: flex;
+    margin: auto;
+    width: 365px;
+    height: 550px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.omslag{
+    display: flex;
+    height: 250px;
+    width: 330px;
+    margin-left:auto;
     margin-right: auto;
 }
+ 
 .scheiding{
     margin: auto;
     width: 360px;
     padding-left: 10px;
 }
 
-h2{
-    text-align: center;
-    color: #42746b;
+.potret{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 300px;
+    
 }
 
+footer{
+    background-color: #88a375;
+    text-align: left;
+    padding: 1em;
+    color:#42746b;
+    
+}
